@@ -1,0 +1,31 @@
+{
+  "name": "texture",
+  "version": "0.0.0",
+  "description": "Command line tool for auto latex rendering on save.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimothyStiles/tren.git"
+  },
+  "keywords": [
+    "latex",
+    "rendering",
+    "cli",
+    "macosx"
+  ],
+  "author": "Timothy S. Stiles <TimothySStiles@gmail.com> (https://github.com/TimothyStiles)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TimothyStiles/texture/issues"
+  },
+  "homepage": "https://github.com/TimothyStiles/texture#readme",
+  "dependencies": {
+    "shelljs": "^0.6.0"
+  },
+  "bin": {
+    texture: app.s
+  }
+}
