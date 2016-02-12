@@ -1,6 +1,6 @@
 {
   "name": "texture",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Command line tool for auto latex rendering on save.",
   "main": "app.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TimothyStiles/tren.git"
+    "url": "git+https://github.com/TimothyStiles/texture.git"
   },
   "keywords": [
     "latex",
