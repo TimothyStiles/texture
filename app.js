@@ -19,10 +19,6 @@ if (extension !== "tex") {
   return;
 }
 
-console.log(extension);
-console.log(genericPath);
-
-
 shell.exec("while true; do sleep 1; if [ " + genericPath +
             ".tex -nt " + genericPath +
             ".log ]; then pdflatex -halt-on-error " + genericPath +
